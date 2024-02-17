@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(7,22,10) !important;
+}
+
+.card {
+    height: 26.3rem !important;
+}
+
+.img-home {
+    height: 26rem !important;
+    object-fit: cover;
+}
+
+.card::before {
+    position: absolute;
+    content: '';
+    width: 30%;
+    height: 180%;
+    top: -35%;
+    left: 35%;
+    background-color: #00b2ca;
+    z-index: 1;
+}
+
+.card:hover::before {
+    animation: animate 2s linear infinite;
+}
+@keyframes animate{
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.card-body {
+    padding: 2px !important;
+    border-radius: 10px;
+    z-index: 3;
+    inset: 2px;
+}
