@@ -2,9 +2,9 @@
 
 {% block content %}
     <div class="row">
-        <h2>{{episode.name}}</h2>
-        <h2>{{episode.air_date}}</h2>
-        <h2>{{episode.episode}}</h2>
+        <h2 class="text-light">{{episode.name}}</h2>
+        <h2 class="text-light">{{episode.air_date}}</h2>
+        <h2 class="text-light">{{episode.episode}}</h2>
         {% for character_url in episode.characters %}
         <h2><a href="{{ url_for('get_single_character', id=character_url.split("/")[-1]) }}" alt="Personagem">Personagem</a></h2>
         {% endfor %}
