@@ -2,9 +2,9 @@
 
 {% block content %}
     <div class="row">
-        <h2>{{ location.name }}</h2>
-        <h2>{{ location.type }}</h2>
-        <h2>{{ location.dimension }}</h2>
+        <h2  class="text-primary">{{ location.name }}</h2>
+        <h2  class="text-primary">{{ location.type }}</h2>
+        <h2  class="text-primary">{{ location.dimension }}</h2>
         {% for character_url in location.residents %}
     <h2><a href="{{ url_for('get_single_character', id=character_url.split("/")[-1]) }}" alt="Residente">Residente</a></h2>
     {% endfor %}

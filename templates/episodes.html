@@ -1,17 +1,16 @@
-{% extends "layout.html" %}
-
-{% block content %}
-    <div class="row">
-        {% for episode in episodes %}
-            <div class="col-sm-3 col-6">
-            <h2>{{ episode.name }}</h2>
-            <h2>{{ episode.air_date }}</h2>
-            <h2>{{ episode.episode }}</h2>
-            <h2><a href="/episode/{{ episode.id }}" class="btn btn-primary">Ver episódio </a></h2>
-
-
-
-        </div>
-        {% endfor %}
-    </div>
+{% extends "layout.html" %} {% block content %}
+<div class="row">
+  {% for episode in episodes %}
+  <div class="col-sm-3 col-6">
+    <h2 class="text-light">{{ episode.name }}</h2>
+    <h2 class="text-light">{{ episode.air_date }}</h2>
+    <h2 class="text-light">{{ episode.episode }}</h2>
+    <h2>
+      <a href="/episode/{{ episode.id }}" class="btn btn-primary"
+        >Ver episódio
+      </a>
+    </h2>
+  </div>
+  {% endfor %}
+</div>
 {% endblock %}
