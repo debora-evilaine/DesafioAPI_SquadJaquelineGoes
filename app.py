@@ -52,3 +52,12 @@ def get_single_character(id):
     single_character = json.loads(data)
 
     return render_template("character.html", character = single_character)
+
+@app.route("/characters")
+def get_all_characters():
+    url = "https://rickandmortyapi.com/api/character"
+    response = urllib.request.urlopen(url)
+    data = response.read()
+    dict = json.loads(data)
+
+    return render_template("characters.html", characters = dict["results"])
