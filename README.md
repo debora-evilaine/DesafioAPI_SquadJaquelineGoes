@@ -68,6 +68,20 @@ Com o terminal aberto no diretório raiz da aplicação:
 
 As integrantes do Squad Jaqueline Goes se reuniram em uma chamada no Google Meet, em que escrevemos o código ao vivo, todas participando, dando sugestões e tirando dúvidas. Depois disso, cada uma foi fazendo suas contribuições no repositório afim de versioná-las.
 
+## Integrantes:
+#### [Adrielly Ribeiro](https://github.com/Eidryel2)
+#### [Nayara Aguiar Silva](https://github.com/devnayarasilva)
+#### [Mariana Lemos Muller](https://github.com/MariMueller)
+#### [Beatriz Mendes da Silva](https://github.com/falakbea)
+#### [Débora Evilaine Sousa Moreira](https://github.com/debora-evilaine)
+#### [Vanilza F. Silvestre](https://github.com/Vaflosima)
+#### [Emanuelle Cruz](https://github.com/manuscruz)
+#### [Lívia Raiane do Nascimento](https://github.com/livnascimento)
+#### [Lucia Ribeiro Durães](https://github.com/luhduraes)
+#### [Marcia Pinto Barcelo](https://github.com/Mpbarcelo)
+#### [Izadora Sobral](https://github.com/izadorasobral)
+
+
 ## 🔗 Links úteis
 
 - [Documentação do Python](https://docs.python.org/3/)
